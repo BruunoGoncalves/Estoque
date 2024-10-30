@@ -19,6 +19,8 @@ public class Program {
         System.out.print("Quantity in stock: ");
         product.quantity = sc.nextInt();
 
+        System.out.println(product);
+
         sc.close();
     }
 }
